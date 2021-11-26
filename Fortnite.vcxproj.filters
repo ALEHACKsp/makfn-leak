@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="SIGS / OFFSETS">
+      <UniqueIdentifier>{311c2bc0-7803-4198-a6a1-a9cfb4eeff2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine renderer">
+      <UniqueIdentifier>{2e25f914-f9f7-46c0-92f1-6ededefa6ef6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Options">
+      <UniqueIdentifier>{d5d9414a-22d9-4e7e-875d-5397ae7c4aeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Encryptions">
+      <UniqueIdentifier>{8756a5e0-313e-4538-8441-cc563df3514b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Runtime">
+      <UniqueIdentifier>{5c3926a4-30e5-4dc5-9b02-35479f234cb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME SDK">
+      <UniqueIdentifier>{6e22d512-5c98-4de7-a0e2-dbe1a733d4e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unreal engine">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="mak">
+      <UniqueIdentifier>{bc3538f0-af75-4718-a6dd-2fea15613a0f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="structs.h">
+      <Filter>unreal engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Basic.h">
+      <Filter>GAME SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="spoof_call.h">
+      <Filter>Runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="offset.h">
+      <Filter>SIGS / OFFSETS</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>engine renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="structure.h">
+      <Filter>engine renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="define_options.h">
+      <Filter>Options</Filter>
+    </ClInclude>
+    <ClInclude Include="xorstr.hpp">
+      <Filter>Encryptions</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="esp.h">
+      <Filter>mak</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>mak</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="_spoofer_stub.asm">
+      <Filter>Runtime</Filter>
+    </MASM>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+  </ItemGroup>
+</Project>
