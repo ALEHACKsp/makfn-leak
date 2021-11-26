@@ -1,7 +1,0 @@
-﻿Rebuild started...
-1>------ Rebuild All started: Project: Nuclear, Configuration: Release x64 ------
-1>Assembling _spoofer_stub.asm...
-1>dllmain.cpp
-1>LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
-1>Fortnite.vcxproj -> C:\Users\kerua\Desktop\nuclear testing\x64\Release\nig.dll
-========== Rebuild All: 1 succeeded, 0 failed, 0 skipped ==========
